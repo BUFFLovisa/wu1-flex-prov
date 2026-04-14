@@ -5,7 +5,7 @@
     justify-content: space-around;
     outline: auto;
     outline-color: #000;
-    text-decoration: none;
+    color: black;
 
  }
  .nav-list{
@@ -23,29 +23,43 @@
 
  }
  .card{
+
     display: flex;
-    flex-direction: ;
-    gap: 1rem;
+    gap: 2rem;
     height: 8rem;
     max-width: 12rem;
     background-color: lightgray;
     margin: 1rem;
     outline: auto;
     outline-color: gray;
-    text-align: center;
+    padding: ;
+    align-items: center;
  }
- 
+
 h1{
     color: #000;
     font-style:normal;
 }
+h2{
+    text-align: center;
+}
 .footer{
     text-align: center;
     background-color: rgb(61, 61, 106);
+    color: white;
     
 }
 
 li{
     list-style: none;
+    
+}
+a {
+    list-style: none;
+}
+
+.svg{
+    background-color: gray;
+    outline: auto;
     
 }
