@@ -1,4 +1,6 @@
  
+
+ 
  .nav{
     display: flex;
     text-align: center;
@@ -32,8 +34,8 @@
     margin: 1rem;
     outline: auto;
     outline-color: gray;
-    padding: ;
     align-items: center;
+    justify-content: space-around;
  }
 
 h1{
