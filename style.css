@@ -1,8 +1,13 @@
+ 
  .nav{
     display: flex;
     text-align: center;
     justify-content: space-around;
     border: 2px;
+    flex-direction: row;
+    border-color: black;
+    background-color: aquamarine;
+    padding: 3px;
  }
  .nav-list{
     flex-direction: row;
@@ -11,13 +16,15 @@
  .header{
     display: flex;
     height: 300px;
+    width: 250px;
     text-align: center;
-    background-color: aquamarine;
+    background-color: pink;
+    width: 100rem;
+    justify-content: center;
  }
  .card-list{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
+    gap: 1rem;
  }
- h1{
-    color: rgb(105, 65, 121);
- }
+ 
